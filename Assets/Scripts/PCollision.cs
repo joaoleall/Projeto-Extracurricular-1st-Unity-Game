@@ -13,7 +13,7 @@ public class PCollision : MonoBehaviour
             Debug.Log("We hit an obstacle");
             //GetComponent<Pmovement>().enabled = false; faria o mesmo
             movement.enabled = false; // o cubo para de mexer assim quando bate no obstaclo, basicamente faz turn off do script pmovement
-            FindObjectOfType<GameManager>().EndGame();
+            FindObjectOfType<GameManager>().Endgame();
         }
     }
 }
